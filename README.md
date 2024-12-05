@@ -1,7 +1,5 @@
-# NDI-Madagascar-4
+## Defi 3d-Social
 
-This is the github of group Madagascar-4's projects in Nuit de l'Info 2024.
+This is a challenge for the Nuit de l'Info of the group Madagascar 4.
 
-Each challenge is dispearsed for its own branch.
-
-![Real](maxresdefault.jpg)
+[The link to the challenge](https://www.nuitdelinfo.com/inscription/defis/385)
