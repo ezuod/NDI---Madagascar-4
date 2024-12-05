@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 id="welcomeMessage"></h1>
+    <button id="startButton">Let's Start!</button>
+  </div>
+
+  <script>
+    // Récupérer le nom d'utilisateur depuis l'URL
+    const params = new URLSearchParams(window.location.search);
+    const username = params.get("username");
+
+    // Afficher le message de bienvenue
+    const welcomeMessage = document.getElementById("welcomeMessage");
+    welcomeMessage.textContent = `Welcome ${username}! 😊`;
+
+    // Ajouter un événement au bouton
+    document.getElementById("startButton").addEventListener("click", () => {
+      window.location.href = "page2.html"; // Rediriger vers page2.html
+    });
+  </script>
+
+</body>
+
+</html>
